@@ -8,7 +8,7 @@
   "type": "commonjs",
   "scripts": {
     "start": "parcel frontend/src/index.html --port 3000",
-    "build": "parcel build frontend/src/index.html --public-url ./cpu-scheduler/",
+    "build": "parcel build frontend/src/index.html --public-url ./",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "clean": "rm -rf dist .parcel-cache"
